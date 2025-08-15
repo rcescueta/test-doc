@@ -1,0 +1,23 @@
+site_name: MONICA Documentation
+site_description: Model for Nitrogen and Carbon in Agro-ecosystems
+site_url: https://rcescueta.github.io/test-doc/
+repo_name: rcescueta/test-doc
+repo_url: https://github.com/rcescueta/test-doc
+
+docs_dir: .
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.snippets
