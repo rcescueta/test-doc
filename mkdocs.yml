@@ -3,8 +3,7 @@ site_description: Model for Nitrogen and Carbon in Agro-ecosystems
 site_url: https://rcescueta.github.io/test-doc/
 repo_name: rcescueta/test-doc
 repo_url: https://github.com/rcescueta/test-doc
-
-docs_dir: .
+edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -20,4 +19,7 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      base_path:
+        - docs
+        - ..

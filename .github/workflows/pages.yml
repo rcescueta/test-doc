@@ -3,9 +3,12 @@ on:
   push:
     branches: [ main ]
     paths:
-      - '**.md'
+      - 'docs/**'
       - 'mkdocs.yml'
       - '.github/workflows/pages.yml'
+      - '**.png'
+      - '**.jpg'
+      - '**.gif'
   workflow_dispatch:
 
 permissions:
